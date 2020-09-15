@@ -1,0 +1,260 @@
+html, body {
+    margin: 0px;
+}
+header{
+    background-color:rgb(24, 129, 14);
+    position: fixed;
+    width: 150px;
+    height: 63px;
+    width: 100%;
+    z-index: 10;
+    border-bottom: rgb(54, 156, 23) 5px solid;
+}
+#logo{
+    width: 40px;
+    padding: 5px;
+    position: absolute;
+    margin-left: 2%;
+    border: rgb(172, 159, 159) 3px solid;
+    border-radius: 180px;
+    margin-top: 0.2%;
+    margin-bottom: 0.2%;
+    padding: 5 5 5 5;
+    background-color: white;
+}
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+    border-radius: 10px;
+}
+li:hover{
+    background-color: yellowgreen;
+    font-size: 22px;
+}
+
+a {
+    color: white;
+    padding: 3 1 3 1;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover, a:active {
+    background-color: yellowgreen;
+}
+#capa{
+    background: url("imagens/fundo.jpg");
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 100%;
+    background-size: cover;
+    border-bottom: rgb(178, 243, 93) 3px solid;  
+}
+#titulo{
+    color: black;
+    padding-top: 130px;
+    font-size: 60px;
+}
+#subtitulo{
+    color: black;
+    padding-bottom: 8px;
+    border-top: 3px black solid;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+#botao{
+    color: black;
+    border: black 2px solid;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#botao:hover{
+    background-color: rgb(213, 247, 93);
+    font-size: 23px;
+}
+#video{
+    padding-top: 10px;
+    margin-left: 25%;
+    padding-right: 150px;
+    width: 50%;
+    height: 300px;
+}
+#videod{
+    border-left: rgb(178, 243, 93) 3px solid;
+    border-right: rgb(178, 243, 93) 3px solid;
+}
+#projeto{
+    background: #f0ebeb;
+    padding: 20px;
+    
+}
+#projeto1{
+    font-size: 30px;
+}
+#central{
+    text-align: justify;
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin: auto;
+    font-size: 13px;
+}
+#ods{
+    font-size: 18px;
+    font-family: 'Trebuchet MS',sans-serif;
+}
+#conteudo{
+    float: left;
+    background: white;
+    padding: 20 10 20 10;
+}
+#tituloC{
+    font-size: 25px;
+}
+.icone{
+    width: 70px;
+    border-radius: 30px;
+}
+.icone:hover{
+    background-color: yellowgreen;
+}
+#linha{
+    height: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    border-top: 5px black solid;
+}
+#producao{
+    padding: 20 10 20 10;
+    font-size: 18px;
+    background: #f0ebeb;
+    margin-top: 50px;
+    line-height: 2;
+}
+.imgProd{
+    width: 45%;
+    border-radius: 8px;
+    height: 45%;
+
+}
+#sobre{
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+    font-size: 18px;
+    border-bottom: 5px rgb(214, 247, 148) solid;
+    height: 70%;
+}
+#minha{
+    width: 50%;
+    border-radius: 360px;
+    height: 90%;
+    padding-top: 15px;
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois{
+    width: 40%;
+}
+footer{
+    background-color: rgb(121, 168, 26);
+    float: left;
+    width: 100%;
+    border-top: 5px rgb(138, 180, 52) solid;
+}
+.colunatres{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 23%;
+    text-align: center;
+}
+#justificado{
+    text-align: justify;
+    font-size: 20px;
+}
+#nome{
+    font-weight: bold;
+    font-size: 20px;
+}
+.centralizado{
+    text-align: center;
+}
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+   
+    #capa{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 1px auto;
+        float: none;
+        width: 100%;
+        height: 65%;
+    }
+    #logo{
+        margin-top: 0.5%;
+    }
+    #titulo{
+        font-size: 40px;
+    }
+    #subtitulo{
+        font-size: 20px;
+        margin: 5 5 5 5;
+        padding-bottom: 15px;
+    }
+
+    #video{
+        width: 80%;
+        margin-left: 10%;
+    }
+    #central{
+        text-align: justify;
+        width: 80%;
+        height: 40%;
+    }
+    .colunatres{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    .imgProd{
+        width: 80%;
+    }
+    #minha{
+        width: 40%;
+        height: 40%;
+    }
+    #minham{
+        margin-top: 20%;
+    }
+    #eu{
+        text-align: justify;
+    }
+    #sobre{
+        width: 100%;
+        height: 100%;
+    }
+    footer{
+        border-bottom: olivedrab 8px solid;
+    }
+}
